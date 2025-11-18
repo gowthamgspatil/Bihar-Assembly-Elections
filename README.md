@@ -125,3 +125,41 @@ This project includes:
 ```bash
 git clone https://github.com/gowthamgspatil/Bihar-Assembly-Elections.git
 cd Bihar-Assembly-Elections
+
+2. Install Dependencies
+pip install -r requirements.txt
+
+3. Open Jupyter Notebook
+jupyter notebook
+
+4. Run the Notebooks in Order
+
+01_data_cleaning.ipynb
+
+02_eda_visualization.ipynb
+
+03_feature_engineering.ipynb
+
+04_ml_baseline_models.ipynb (optional)
+
+👤 Author
+
+Gowtham Gs Patil
+📧 Email: gowthamgshivamurthy@gmail.com
+
+🐙 GitHub: gowthamgspatil
+
+⚖️ License
+
+This project is licensed under the MIT License.
+Election data remains © Election Commission of India (ECI) and is used for educational and analytical purposes only.
+
+⭐ Support This Project
+
+If you found this project useful:
+
+⭐ Star the repository
+
+🍴 Fork it
+
+🗣️ Share with the data science and civic analytics community
