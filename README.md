@@ -1,4 +1,4 @@
-# 🗳️ Bihar Assembly Elections 2025 — Complete Candidate-Level Dataset & Analysis
+#  Bihar Assembly Elections 2025 — Complete Candidate-Level Dataset & Analysis
 
 This repository contains a **comprehensive, candidate-level dataset** of the **Bihar Assembly Elections 2025**, scraped directly from the **Election Commission of India (ECI)** official results portal.  
 It includes data for all **243 assembly constituencies**, covering **every candidate**, their vote details, party affiliation, and vote share.  
@@ -6,11 +6,11 @@ The project also provides data cleaning scripts, exploratory data analysis (EDA)
 
 ---
 
-## 📊 About the Dataset
+##  About the Dataset
 
 This dataset contains **complete, verified results** from the **Bihar Assembly Elections 2025**, obtained directly from the official **ECI results portal**.
 
-### 🔍 What Each Row Represents
+###  What Each Row Represents
 
 Each row corresponds to the **performance of a single candidate** in a constituency, including:
 
@@ -23,7 +23,7 @@ Each row corresponds to the **performance of a single candidate** in a constitue
 - **Total Votes** – (EVM + Postal)  
 - **Vote Percentage**
 
-### 📌 Dataset Coverage
+###  Dataset Coverage
 
 The dataset includes:
 
@@ -36,14 +36,14 @@ The dataset includes:
 
 ---
 
-## 🧹 Data Collection & Cleaning
+##  Data Collection & Cleaning
 
-### 🔗 Data Source  
+###  Data Source  
 - **Official Website:** Election Commission of India (ECI) – Results Portal  
 - **Method:** Automated web scraping (Python: BeautifulSoup, Requests, Selenium)  
 - **Verification:** Manual validation checks for accuracy & consistency  
 
-### 🛠 Cleaning Steps Performed
+###  Cleaning Steps Performed
 
 - Standardized column names  
 - Removed duplicates  
@@ -54,7 +54,7 @@ The dataset includes:
 
 ---
 
-## 📈 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 The notebook `02_eda_visualization.ipynb` includes:
 
@@ -75,7 +75,7 @@ Example questions explored:
 
 ---
 
-## 🛠 Feature Engineering
+##  Feature Engineering
 
 The `03_feature_engineering.ipynb` notebook covers:
 
@@ -88,7 +88,7 @@ The `03_feature_engineering.ipynb` notebook covers:
 
 ---
 
-## 🤖 Machine Learning (Optional)
+##  Machine Learning (Optional)
 
 Optional ML experiments include:
 
@@ -106,7 +106,7 @@ These provide baseline models for analyzing constituency trends and vote pattern
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 This project includes:
 
@@ -118,48 +118,57 @@ This project includes:
 - (Optional) Geographic visualizations  
 
 ---
+Here is your properly formatted, polished, **README.md–ready** version of the final sections you provided.
+Just **copy–paste** directly into your README.
 
-## 🚀 How to Use This Repository
+---
+
+##  How to Use This Repository
 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/gowthamgspatil/Bihar-Assembly-Elections.git
 cd Bihar-Assembly-Elections
-
-2. Install Dependencies
+````
+### **2. Install Dependencies**
+```bash
 pip install -r requirements.txt
+````
 
-3. Open Jupyter Notebook
+### **3. Open Jupyter Notebook**
+
+```bash
 jupyter notebook
+```
 
-4. Run the Notebooks in Order
+### **4. Run the Notebooks in Order**
 
-01_data_cleaning.ipynb
+1. `01_data_cleaning.ipynb`
+2. `02_eda_visualization.ipynb`
+3. `03_feature_engineering.ipynb`
+4. `04_ml_baseline_models.ipynb` *(optional)*
 
-02_eda_visualization.ipynb
+---
 
-03_feature_engineering.ipynb
+##  Author
 
-04_ml_baseline_models.ipynb (optional)
+**Gowtham Gs Patil**
+ Email: **[gowthamgshivamurthy@gmail.com](mailto:gowthamgshivamurthy@gmail.com)**
+ GitHub: [gowthamgspatil](https://github.com/gowthamgspatil)
 
-👤 Author
+---
 
-Gowtham Gs Patil
-📧 Email: gowthamgshivamurthy@gmail.com
+##  License
 
-🐙 GitHub: gowthamgspatil
+This project is licensed under the **MIT License**.
+Election data remains **© Election Commission of India (ECI)** and is used strictly for educational and analytical purposes.
 
-⚖️ License
+---
 
-This project is licensed under the MIT License.
-Election data remains © Election Commission of India (ECI) and is used for educational and analytical purposes only.
+##  Support This Project
 
-⭐ Support This Project
+If you found this project helpful:
 
-If you found this project useful:
-
-⭐ Star the repository
-
-🍴 Fork it
-
-🗣️ Share with the data science and civic analytics community
+*  **Star the repository**
+*  **Fork it**
+*  **Share it** with the data science and civic analytics community
